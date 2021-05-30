@@ -1,2 +1,3 @@
-# shishkin-org
+# shishkin.org
+
 Personal site
