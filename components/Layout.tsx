@@ -36,6 +36,10 @@ export default function Layout({ children, title = "Index" }: Props) {
             </a>
           </Link>
 
+          <Link href="/CV">
+            <a>CV</a>
+          </Link>
+
           <a
             href="http://feeds.feedburner.com/SergeyShishkin"
             rel="alternate"
