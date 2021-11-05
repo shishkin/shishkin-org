@@ -81,8 +81,12 @@ export default function Layout({ children, title = "Index" }: Props) {
             rel="license"
             title="Creative Commons Attribution License"
           >
-            <FontAwesomeIcon icon={faCreativeCommons} /> Sergey Shishkin
+            <FontAwesomeIcon icon={faCreativeCommons} />
           </a>
+          {" Sergey Shishkin. "}
+          <Link href="/impressum">
+            <a>Impressum</a>
+          </Link>
         </p>
       </footer>
     </div>
