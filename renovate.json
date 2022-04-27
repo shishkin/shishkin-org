@@ -7,28 +7,16 @@
       "groupName": "react"
     },
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "action"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "devDependencies minor",
-      "schedule": ["before 7am every weekday"],
       "automerge": true,
       "automergeType": "branch"
     },
-    {
-      "matchDepTypes": ["action"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "action minor",
-      "schedule": ["before 7am every weekday"],
-      "automerge": true,
-      "automergeType": "branch"
-    },
-
-
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch"],
       "groupName": "dependencies patch",
-      "schedule": ["before 7am every weekday"],
       "automerge": true,
       "automergeType": "branch"
     }
