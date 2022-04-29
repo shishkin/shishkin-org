@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@types/node": "16.11.27",
+    "@types/mdx": "^2.0.1",
     "@types/react": "18.0.6",
     "@types/react-dom": "18.0.2",
     "npm-upgrade": "3.1.0",
