@@ -15,7 +15,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
 export default () => {
   return (
-    <main>
+    <>
       <h1>Sergey Shishkin</h1>
       <p>
         🌐 Remotely from Europe | ✉️ 
@@ -288,6 +288,6 @@ export default () => {
           margin-top: 0.5em;
         }
       `}</style>
-    </main>
+    </>
   );
 };

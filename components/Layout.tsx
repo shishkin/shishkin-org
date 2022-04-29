@@ -76,7 +76,7 @@ export default function Layout({ children, title }: Props) {
           </a>
         </nav>
       </header>
-      {children}
+      <main>{children}</main>
       <footer>
         <p>
           <a
