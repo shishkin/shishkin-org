@@ -10,19 +10,22 @@ import {
 import { faHome, faRss } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-type Props = {
+type Props = PageProps & {
   children?: ReactNode;
+};
+
+export type PageProps = {
   title?: string;
 };
 
-export default function Layout({ children, title = "Index" }: Props) {
+export default function Layout({ children, title }: Props) {
   return (
     <div>
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="author" content="Sergey Shishkin" />
-        <title>{title} - Sergey Shishkin</title>
+        <title>Sergey Shishkin{title ? ` :: ${title}` : ""}</title>
         <link rel="canonical" href="http://shishkin.org" />
         <link href="/favicon.png" rel="icon" />
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
