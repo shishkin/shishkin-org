@@ -2,13 +2,13 @@ import React, { ReactNode } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import {
-  faCreativeCommons,
-  faGithub,
-  faLinkedin,
-  faXing,
-} from "@fortawesome/free-brands-svg-icons";
-import { faHome, faRss } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  FaCreativeCommons,
+  FaGithub,
+  FaHome,
+  FaLinkedin,
+  FaRss,
+  FaXing,
+} from "react-icons/fa";
 
 type Props = PageProps & {
   children?: ReactNode;
@@ -35,7 +35,7 @@ export default function Layout({ children, title }: Props) {
         <nav>
           <Link href="/">
             <a>
-              <FontAwesomeIcon icon={faHome} /> Home
+              <FaHome className="icon" /> Home
             </a>
           </Link>
 
@@ -48,15 +48,15 @@ export default function Layout({ children, title }: Props) {
             rel="alternate"
             title="RSS Feed"
           >
-            <FontAwesomeIcon icon={faRss} />
+            <FaRss className="icon" />
           </a>
 
           <a
             href="https://xing.com/profile/Sergey_Shishkin2"
             rel="alternate"
-            title="My profile on GitHub"
+            title="My profile on Xing"
           >
-            <FontAwesomeIcon icon={faXing} />
+            <FaXing className="icon" />
           </a>
 
           <a
@@ -64,7 +64,7 @@ export default function Layout({ children, title }: Props) {
             rel="alternate"
             title="My profile on LinkedIn"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FaLinkedin className="icon" />
           </a>
 
           <a
@@ -72,7 +72,7 @@ export default function Layout({ children, title }: Props) {
             rel="alternate"
             title="My profile on GitHub"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FaGithub className="icon" />
           </a>
         </nav>
       </header>
@@ -84,7 +84,7 @@ export default function Layout({ children, title }: Props) {
             rel="license"
             title="Creative Commons Attribution License"
           >
-            <FontAwesomeIcon icon={faCreativeCommons} />
+            <FaCreativeCommons className="icon" />
           </a>
           {" Sergey Shishkin. "}
           <Link href="/impressum">

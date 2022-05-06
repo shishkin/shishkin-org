@@ -20,21 +20,18 @@
   },
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.0.0",
-    "@fortawesome/free-solid-svg-icons": "^6.0.0",
-    "@fortawesome/react-fontawesome": "^0.1.17",
     "@mdx-js/loader": "^2.1.1",
     "@mdx-js/react": "^2.1.1",
     "@next/mdx": "^12.1.5",
     "next": "^12.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-icons": "4.3.1",
     "styled-jsx": "^5.0.2"
   },
   "devDependencies": {
-    "@types/node": "16.11.27",
     "@types/mdx": "2.0.1",
+    "@types/node": "16.11.27",
     "@types/react": "18.0.6",
     "@types/react-dom": "18.0.2",
     "npm-upgrade": "3.1.0",

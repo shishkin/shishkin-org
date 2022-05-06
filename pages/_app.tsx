@@ -1,6 +1,5 @@
 import type { AppProps } from "next/app";
 import "../assets/styles.css";
-import "@fortawesome/fontawesome-svg-core/styles.css";
 import Layout from "../components/Layout";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
