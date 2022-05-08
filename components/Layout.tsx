@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import Link from "next/link";
-import Head from "next/head";
 import {
   FaCreativeCommons,
   FaGithub,
@@ -17,16 +16,6 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <div>
-      <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="author" content="Sergey Shishkin" />
-        <title>Sergey Shishkin</title>
-        <link rel="canonical" href="https://shishkin.org" />
-        <link href="/favicon.png" rel="icon" />
-        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/favicon.png"></link>
-      </Head>
       <header>
         <nav>
           <Link href="/">
