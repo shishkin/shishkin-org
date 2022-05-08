@@ -10,23 +10,19 @@ import {
   FaXing,
 } from "react-icons/fa";
 
-type Props = PageProps & {
+type Props = {
   children?: ReactNode;
 };
 
-export type PageProps = {
-  title?: string;
-};
-
-export default function Layout({ children, title }: Props) {
+export default function Layout({ children }: Props) {
   return (
     <div>
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="author" content="Sergey Shishkin" />
-        <title>Sergey Shishkin{title ? ` :: ${title}` : ""}</title>
-        <link rel="canonical" href="http://shishkin.org" />
+        <title>Sergey Shishkin</title>
+        <link rel="canonical" href="https://shishkin.org" />
         <link href="/favicon.png" rel="icon" />
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/favicon.png"></link>
@@ -97,8 +93,8 @@ export default function Layout({ children, title }: Props) {
             <FaCreativeCommons className="icon" />
           </a>
           {" Sergey Shishkin. "}
-          <Link href="/impressum">
-            <a>Impressum</a>
+          <Link href="/imprint">
+            <a>Imprint</a>
           </Link>
         </p>
       </footer>

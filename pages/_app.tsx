@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <MDXProvider>
-      <Layout title={pageProps.title}>
+      <Layout>
         <Component {...pageProps} />
       </Layout>
     </MDXProvider>
