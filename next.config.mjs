@@ -14,6 +14,10 @@ const withMDX = nextMDX({
 const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+  i18n: {
+    locales: ["en-US"],
+    defaultLocale: "en-US",
+  },
 };
 
 export default withMDX(nextConfig);
