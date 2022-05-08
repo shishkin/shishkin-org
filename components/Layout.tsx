@@ -35,13 +35,23 @@ export default function Layout({ children, title }: Props) {
         <nav>
           <Link href="/">
             <a>
-              <FaHome className="icon" /> Home
+              <FaHome className="icon" aria-label="Home" />
             </a>
+          </Link>
+
+          <Link href="/#areas-of-expertise">
+            <a>Areas of Expertise</a>
+          </Link>
+
+          <Link href="/#what-i-do">
+            <a>What I Do</a>
           </Link>
 
           <Link href="/CV">
             <a>CV</a>
           </Link>
+
+          <div className="spacer"></div>
 
           <a
             href="http://feeds.feedburner.com/SergeyShishkin"
