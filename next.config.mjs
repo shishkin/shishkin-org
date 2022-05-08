@@ -1,8 +1,11 @@
-const withMDX = require("@next/mdx")({
+import nextMDX from "@next/mdx";
+import rehypeSlug from "rehype-slug";
+
+const withMDX = nextMDX({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [],
-    rehypePlugins: [],
+    rehypePlugins: [rehypeSlug],
     providerImportSource: "@mdx-js/react",
   },
 });
@@ -13,4 +16,4 @@ const nextConfig = {
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
 };
 
-module.exports = withMDX(nextConfig);
+export default withMDX(nextConfig);
