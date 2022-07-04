@@ -1,10 +1,10 @@
-name: Publish pages
+name: CI Build
 on:
   push:
   pull_request:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,10 +19,3 @@ jobs:
         run: |
           npm install
           npm run build
-          touch out/.nojekyll
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.3.2
-        with:
-          branch: gh-pages
-          folder: out
