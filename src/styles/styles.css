@@ -93,6 +93,7 @@ footer a:active {
 }
 
 svg.icon {
+  height: 1em;
   vertical-align: -0.125em;
 }
 

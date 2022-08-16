@@ -3,10 +3,6 @@
   "extends": ["config:base", "schedule:earlyMondays"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["react", "@types/react"],
-      "groupName": "react"
-    },
-    {
       "matchDepTypes": ["devDependencies", "action"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "devDependencies minor",
@@ -19,6 +15,10 @@
       "groupName": "dependencies patch",
       "automerge": true,
       "automergeType": "branch"
+    },
+    {
+      "matchPackagePatterns": ["astro", "@astrojs/"],
+      "groupName": "astro"
     }
   ]
 }

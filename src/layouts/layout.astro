@@ -1,0 +1,69 @@
+---
+import "../styles/styles.css";
+import { Icon } from 'astro-icon'
+const { title = "Sergey Shishkin", description = "" } = Astro.props.frontmatter || Astro.props
+---
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  <meta name="author" content="Sergey Shishkin" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+  <link rel="canonical" href="https://shishkin.org" />
+  <link href="/favicon.png" rel="icon" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
+</head>
+
+<body>
+  <div>
+    <header>
+      <nav>
+        <a href="/">
+          <Icon name="fa:home" class="icon" aria-label="Home" />
+        </a>
+
+        <a href="/#areas-of-expertise">Areas of Expertise</a>
+
+        <a href="/#what-i-do">What I Do</a>
+
+        <a href="/CV">CV</a>
+
+        <div class="spacer"></div>
+
+        <a href="http://feeds.feedburner.com/SergeyShishkin" rel="alternate" title="RSS Feed">
+          <Icon name="fa:rss" class="icon" />
+        </a>
+
+        <a href="https://xing.com/profile/Sergey_Shishkin2" rel="alternate" title="My profile on Xing">
+          <Icon name="fa:xing" class="icon" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/serega" rel="alternate" title="My profile on LinkedIn">
+          <Icon name="fa:linkedin" class="icon" />
+        </a>
+
+        <a href="https://github.com/shishkin" rel="alternate" title="My profile on GitHub">
+          <Icon name="fa:github" class="icon" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>
+        <a href="http://creativecommons.org/licenses/by/3.0/" rel="license"
+          title="Creative Commons Attribution License">
+          <Icon name="fa:creative-commons" class="icon" />
+        </a> Sergey Shishkin.
+        <a href="/imprint">Imprint</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>

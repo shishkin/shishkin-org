@@ -2,11 +2,11 @@
   "name": "shishkin.org",
   "version": "1.0.0",
   "description": "Personal site",
-  "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "start": "next build && next start",
-    "build": "next build && next export"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && tsc --noEmit && astro build",
+    "preview": "astro preview"
   },
   "repository": {
     "type": "git",
@@ -19,22 +19,13 @@
     "url": "https://github.com/shishkin/shishkin-org/issues"
   },
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
-  "dependencies": {
-    "@mdx-js/loader": "2.1.2",
-    "@mdx-js/react": "2.1.2",
-    "@next/mdx": "12.2.5",
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "4.4.0",
-    "rehype-slug": "5.0.1",
-    "styled-jsx": "5.0.4"
-  },
   "devDependencies": {
+    "@astrojs/mdx": "0.10.0",
+    "@astrojs/vercel": "1.0.0",
     "@types/mdx": "2.0.2",
     "@types/node": "16.11.47",
-    "@types/react": "18.0.15",
-    "@types/react-dom": "18.0.6",
+    "astro": "1.0.6",
+    "astro-icon": "0.7.3",
     "npm-upgrade": "3.1.0",
     "typescript": "4.7.4"
   }

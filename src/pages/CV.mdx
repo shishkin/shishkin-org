@@ -1,22 +1,19 @@
-import Head from "next/head";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Timeline from "../components/Timeline";
+---
+layout: "../layouts/layout.astro"
+title: "Sergey Shishkin - CV"
+description: "CV of Sergey Shishkin - technical consultant and coach specializing in business agility and technical excellence"
+---
 
-<Head>
-  <title>Sergey Shishkin - CV</title>
-  <meta
-    name="description"
-    content="CV of Sergey Shishkin - technical consultant and coach specializing in business agility and technical excellence"
-  />
-</Head>
+import Timeline from "../components/Timeline.astro";
+import { Icon } from "astro-icon";
 
 # Sergey Shishkin
 
 🌐 Remotely from Europe
 | ✉️ [sergey@shishkin.org](mailto:sergey@shishkin.org)
 | 🔗 [shishkin.org](https://shishkin.org)
-| <FaLinkedin className="icon" /> [linkedin.com/in/serega](https://linkedin.com/in/serega)
-| <FaGithub className="icon" /> [github.com/shishkin](https://github.com/shishkin)
+| <Icon name="fa:linkedin" class="icon" /> [linkedin.com/in/serega](https://linkedin.com/in/serega)
+| <Icon name="fa:github" class="icon" /> [github.com/shishkin](https://github.com/shishkin)
 
 ## About
 

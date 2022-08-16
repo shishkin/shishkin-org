@@ -1,22 +1,10 @@
-import Head from "next/head";
-import {
-  IoChatbubblesOutline,
-  IoConstructOutline,
-  IoEaselOutline,
-  IoRocketOutline,
-  IoTrailSignOutline,
-  IoNavigateOutline,
-  IoShieldCheckmarkOutline,
-} from "react-icons/io5";
-import { GrGrow } from "react-icons/gr";
+---
+layout: "../layouts/layout.astro"
+title: "Sergey Shishkin"
+description: "Sergey Shishkin - technical consultant and coach specializing in business agility and technical excellence"
+---
 
-<Head>
-  <title>Sergey Shishkin</title>
-  <meta
-    name="description"
-    content="Sergey Shishkin - technical consultant and coach specializing in business agility and technical excellence"
-  />
-</Head>
+import { Icon } from "astro-icon";
 
 <section className="preamble">
 
@@ -40,7 +28,7 @@ decentralization and coaching.
 <div className="blocks">
 <section>
 
-### <IoNavigateOutline className="icon" /> Business Agility
+### <Icon name="ion:navigate-outline" class="icon" /> Business Agility
 
 What's the point of a high-performing agile development team, if the product backlog for the next two years is set in stone?
 
@@ -53,7 +41,7 @@ Psychological safety is a prerequisite for organizations to start turning failur
 </section>
 <section>
 
-### <IoRocketOutline className="icon" /> Technical Excellence
+### <Icon name="ion:rocket-outline" class="icon" /> Technical Excellence
 
 Great technology contributes significantly to speed of delivery.
 Great use of technology even more so!
@@ -75,7 +63,7 @@ And that feeds into self-reinforcing positive cycle.
 <div className="blocks">
 <section>
 
-### <IoTrailSignOutline className="icon" /> Consulting
+### <Icon name="ion:trail-sign-outline" class="icon" /> Consulting
 
 During over two decades in the IT industry I've worked in small startups and regulated multi-national corporations.
 In the end of the day, everyone wants to ship better products cheaper and faster.
@@ -88,7 +76,7 @@ Arrange 1 free consulting session with me: [drop me a note](mailto:sergey@shishk
 </section>
 <section>
 
-### <IoConstructOutline className="icon" /> Development
+### <Icon name="ion:construct-outline" class="icon" /> Development
 
 I develop rapid prototypes and large-scale high-quality software systems using modern cloud-native technologies on Node/JS and JVM.
 I'm functional programming enthusiast, polyglot programmer and work throughout the application stack:
@@ -102,7 +90,7 @@ I value simple, pragmatic solutions and automation of repetitive and error-prone
 </section>
 <section>
 
-### <IoShieldCheckmarkOutline className="icon" /> Architecture and Code Review
+### <Icon name="ion:shield-checkmark-outline" class="icon" /> Architecture and Code Review
 
 Skeptical of silver bullet solutions, I offer solutions tailored to socio-technical background of the organization.
 My expertise covers:
@@ -116,7 +104,7 @@ My expertise covers:
 </section>
 <section>
 
-### <GrGrow className="icon" /> Interim Technical Leadership
+### <Icon name="carbon:crop-growth" class="icon" /> Interim Technical Leadership
 
 Great technology teams deliver with consistently high quality.
 Engineering culture has a flywheel effect and forms either virtuous or vicious cycle.
@@ -126,7 +114,7 @@ Through coaching and mentoring practice I foster engineering excellence and cont
 </section>
 <section>
 
-### <IoEaselOutline className="icon" /> Training
+### <Icon name="ion:easel-outline" class="icon" /> Training
 
 I enjoy sharing my knowledge with others and am available for in-house and online trainings.
 Topics include:
@@ -139,7 +127,7 @@ Topics include:
 </section>
 <section>
 
-### <IoChatbubblesOutline className="icon" /> Coaching
+### <Icon name="ion:chatbubbles-outline" class="icon" /> Coaching
 
 [Coaching is](https://coachingfederation.org/about) partnering with clients in a thought-provoking and creative process that inspires them to maximize their potential.
 As a coach I don't diagnose or prescribe solution but invite you to explore different perspectives and build skills and resilience of your own.
