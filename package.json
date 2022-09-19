@@ -21,7 +21,7 @@
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
   "devDependencies": {
     "@astrojs/mdx": "0.10.0",
-    "@astrojs/vercel": "1.0.0",
+    "@astrojs/vercel": "2.0.0",
     "@types/mdx": "2.0.2",
     "@types/node": "16.11.56",
     "astro": "1.0.6",
