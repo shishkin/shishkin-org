@@ -22,8 +22,8 @@
   "devDependencies": {
     "@astrojs/mdx": "0.10.0",
     "@astrojs/vercel": "2.0.0",
-    "@types/mdx": "2.0.2",
-    "@types/node": "16.11.66",
+    "@types/mdx": "2.0.3",
+    "@types/node": "16.18.3",
     "astro": "1.0.6",
     "astro-icon": "0.7.3",
     "npm-upgrade": "3.1.0",
