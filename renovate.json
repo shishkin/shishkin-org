@@ -1,21 +1,15 @@
 {
   "timezone": "Europe/Zurich",
-  "extends": ["config:base", "schedule:earlyMondays"],
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes",
+    "helpers:disableTypesNodeMajor"
+  ],
+  "schedule": ["every weekend on the 2nd week of the month"],
   "packageRules": [
-    {
-      "matchDepTypes": ["devDependencies", "action"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "devDependencies minor",
-      "automerge": true,
-      "automergeType": "branch"
-    },
-    {
-      "matchDepTypes": ["dependencies"],
-      "matchUpdateTypes": ["patch"],
-      "groupName": "dependencies patch",
-      "automerge": true,
-      "automergeType": "branch"
-    },
     {
       "matchPackagePatterns": ["astro", "@astrojs/"],
       "groupName": "astro"
