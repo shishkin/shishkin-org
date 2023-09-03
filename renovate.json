@@ -1,18 +1,19 @@
 {
   "timezone": "Europe/Zurich",
-  "extends": [
-    "config:base",
-    ":automergeMinor",
-    ":automergeLinters",
-    ":automergeTesters",
-    ":automergeTypes",
-    "helpers:disableTypesNodeMajor"
-  ],
+  "extends": ["config:recommended", "helpers:disableTypesNodeMajor"],
   "schedule": ["every weekend on the 2nd week of the month"],
+  "automergeType": "branch",
+  "prHourlyLimit": 0,
   "packageRules": [
     {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "devDependencies",
+      "automerge": true
+    },
+    {
       "matchPackagePatterns": ["astro", "@astrojs/"],
-      "groupName": "astro"
+      "groupName": "astro",
+      "automerge": true
     }
   ]
 }
