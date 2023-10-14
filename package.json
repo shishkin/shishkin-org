@@ -28,10 +28,10 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "@astrojs/check": "0.2.0",
-    "@astrojs/mdx": "1.1.1",
+    "@astrojs/check": "0.2.1",
+    "@astrojs/mdx": "1.1.2",
     "@astrojs/vercel": "5.0.2",
-    "astro": "3.2.3",
+    "astro": "3.3.0",
     "astro-icon": "0.8.1"
   }
 }
