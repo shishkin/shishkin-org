@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
   "devDependencies": {
-    "@types/mdx": "2.0.8",
-    "@types/node": "18.18.5",
+    "@types/mdx": "2.0.9",
+    "@types/node": "18.18.8",
     "typescript": "5.2.2"
   },
   "dependencies": {
