@@ -1,8 +1,7 @@
 ---
 import "../styles/styles.css";
-import { Icon } from "astro-icon";
-const { title = "Sergey Shishkin", description = "" } =
-  Astro.props.frontmatter || Astro.props;
+import { Icon } from "astro-icon/components";
+const { title = "Sergey Shishkin", description = "" } = Astro.props.frontmatter || Astro.props;
 ---
 
 <html>
@@ -37,35 +36,19 @@ const { title = "Sergey Shishkin", description = "" } =
 
           <div class="spacer"></div>
 
-          <a
-            href="http://feeds.feedburner.com/SergeyShishkin"
-            rel="alternate"
-            title="RSS Feed"
-          >
-            <Icon name="fa:rss" class="icon" />
+          <a href="http://feeds.feedburner.com/SergeyShishkin" rel="alternate" title="RSS Feed">
+            <Icon name="ion:logo-rss" class="icon" />
           </a>
 
-          <a
-            href="https://xing.com/profile/Sergey_Shishkin2"
-            rel="me"
-            title="My profile on Xing"
-          >
+          <a href="https://xing.com/profile/Sergey_Shishkin2" rel="me" title="My profile on Xing">
             <Icon name="fa:xing" class="icon" />
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/serega"
-            rel="me"
-            title="My profile on LinkedIn"
-          >
+          <a href="https://www.linkedin.com/in/serega" rel="me" title="My profile on LinkedIn">
             <Icon name="fa:linkedin" class="icon" />
           </a>
 
-          <a
-            href="https://github.com/shishkin"
-            rel="me"
-            title="My profile on GitHub"
-          >
+          <a href="https://github.com/shishkin" rel="me" title="My profile on GitHub">
             <Icon name="fa:github" class="icon" />
           </a>
         </nav>
