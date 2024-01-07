@@ -13,7 +13,7 @@
     "url": "git+https://github.com/shishkin/shishkin-org.git"
   },
   "engines": {
-    "node": ">=18 <21"
+    "node": ">=20 <21"
   },
   "keywords": [],
   "author": "Sergey Shishkin",
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
   "devDependencies": {
     "@types/mdx": "2.0.10",
-    "@types/node": "18.19.4",
+    "@types/node": "20.10.6",
     "typescript": "5.3.3"
   },
   "dependencies": {
