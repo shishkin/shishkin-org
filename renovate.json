@@ -6,6 +6,10 @@
   "prHourlyLimit": 0,
   "packageRules": [
     {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
       "matchDepTypes": ["devDependencies"],
       "groupName": "devDependencies",
       "automerge": true
