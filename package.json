@@ -29,12 +29,12 @@
   },
   "dependencies": {
     "@astrojs/check": "0.5.10",
-    "@astrojs/mdx": "2.3.0",
-    "@astrojs/vercel": "7.5.3",
+    "@astrojs/mdx": "2.3.1",
+    "@astrojs/vercel": "7.5.4",
     "@iconify-json/carbon": "1.1.32",
     "@iconify-json/fa": "1.1.8",
     "@iconify-json/ion": "1.1.18",
-    "astro": "4.6.1",
+    "astro": "4.7.1",
     "astro-icon": "1.1.0"
   }
 }
