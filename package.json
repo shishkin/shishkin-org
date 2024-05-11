@@ -24,7 +24,7 @@
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
   "devDependencies": {
     "@types/mdx": "2.0.13",
-    "@types/node": "20.12.8",
+    "@types/node": "20.12.11",
     "typescript": "5.4.5"
   },
   "dependencies": {
