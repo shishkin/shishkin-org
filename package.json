@@ -31,7 +31,7 @@
     "@astrojs/check": "0.6.0",
     "@astrojs/mdx": "3.0.0",
     "@astrojs/vercel": "7.6.0",
-    "@iconify-json/carbon": "1.1.32",
+    "@iconify-json/carbon": "1.1.34",
     "@iconify-json/fa": "1.1.8",
     "@iconify-json/ion": "1.1.18",
     "astro": "4.8.2",
