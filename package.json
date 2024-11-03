@@ -13,7 +13,7 @@
     "url": "git+https://github.com/shishkin/shishkin-org.git"
   },
   "engines": {
-    "node": ">=20 <21"
+    "node": ">=20 <23"
   },
   "keywords": [],
   "author": "Sergey Shishkin",
