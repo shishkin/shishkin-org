@@ -34,7 +34,7 @@
     "@iconify-json/carbon": "1.2.4",
     "@iconify-json/fa": "1.2.0",
     "@iconify-json/ion": "1.2.1",
-    "astro": "4.16.8",
-    "astro-icon": "1.1.1"
+    "astro": "4.16.10",
+    "astro-icon": "1.1.2"
   }
 }
