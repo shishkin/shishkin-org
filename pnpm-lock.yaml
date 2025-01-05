@@ -13,25 +13,25 @@ importers:
         version: 0.9.4(typescript@5.7.2)
       '@astrojs/mdx':
         specifier: 4.0.3
-        version: 4.0.3(astro@5.1.2(@types/node@22.10.2)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1))
+        version: 4.0.3(astro@5.1.2(@types/node@22.10.5)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1))
       '@iconify-json/carbon':
-        specifier: 1.2.4
-        version: 1.2.4
+        specifier: 1.2.5
+        version: 1.2.5
       '@iconify-json/fa':
-        specifier: 1.2.0
-        version: 1.2.0
-      '@iconify-json/ion':
         specifier: 1.2.1
         version: 1.2.1
+      '@iconify-json/ion':
+        specifier: 1.2.2
+        version: 1.2.2
       '@types/mdx':
         specifier: 2.0.13
         version: 2.0.13
       '@types/node':
-        specifier: 22.10.2
-        version: 22.10.2
+        specifier: 22.10.5
+        version: 22.10.5
       astro:
         specifier: 5.1.2
-        version: 5.1.2(@types/node@22.10.2)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1)
+        version: 5.1.2(@types/node@22.10.5)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1)
       astro-icon:
         specifier: 1.1.5
         version: 1.1.5
@@ -420,14 +420,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@iconify-json/carbon@1.2.4':
-    resolution: {integrity: sha512-DhW2jjMVGwV0DLHc0cmDYohdtGxMra8UuwgjHrryPy+rQX4gXhJwCBBVP2h2UG/92AoRCTn7zUJve4WvY5MLYg==}
+  '@iconify-json/carbon@1.2.5':
+    resolution: {integrity: sha512-aI3TEzOrUDGhs74zIT3ym/ZQBUEziyu8JifntX2Hb4siVzsP5sQ/QEfVdmcCUj37kQUYT3TYBSeAw2vTfCJx9w==}
 
-  '@iconify-json/fa@1.2.0':
-    resolution: {integrity: sha512-D49fT0bDtnoJIEE2586VDL6Yuti6BBYWA90GIeZabJ6KZ8WXylw+EhQfz6weMDr0HrRDFV/mzwS8gpWADBprMA==}
+  '@iconify-json/fa@1.2.1':
+    resolution: {integrity: sha512-aY2+tQNWq5ch+ShtAz3KKbNrFfwf4BPrXvyN7S4/lcf6Wms+kIxsd7C7KortzHZhoBnbhVN+qo+YUWLW7rLs9Q==}
 
-  '@iconify-json/ion@1.2.1':
-    resolution: {integrity: sha512-33jiBdtP8+uBV0KRz8Z9g54QFujzssiT9W6wdNuY61VQM1s3cvoAX89yiczRs4/6b2xJE5vqqvsEJAQPqfY5JA==}
+  '@iconify-json/ion@1.2.2':
+    resolution: {integrity: sha512-GysHYDAyy3K4R2Xxsab3I0ZFmQA4oorfIkwX0g6xfZJNVZcFyAlA4pa1jAJC9Bk3cLiWUtnN8ZyWs6cP3nxlnw==}
 
   '@iconify/tools@4.0.7':
     resolution: {integrity: sha512-zOJxKIfZn96ZRGGvIWzDRLD9vb2CsxjcLuM+QIdvwWbv6SWhm49gECzUnd4d2P0sq9sfodT7yCNobWK8nvavxQ==}
@@ -717,8 +717,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.10.2':
-    resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
+  '@types/node@22.10.5':
+    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
 
   '@types/tar@6.1.13':
     resolution: {integrity: sha512-IznnlmU5f4WcGTh2ltRu/Ijpmk8wiWXfF0VA4s+HPjHZgvFggk1YaIkbo5krX/zUCzWF8N/l4+W/LNxnvAJ8nw==}
@@ -2425,12 +2425,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.0.3(astro@5.1.2(@types/node@22.10.2)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1))':
+  '@astrojs/mdx@4.0.3(astro@5.1.2(@types/node@22.10.5)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.0.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
       acorn: 8.14.0
-      astro: 5.1.2(@types/node@22.10.2)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1)
+      astro: 5.1.2(@types/node@22.10.5)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1)
       es-module-lexer: 1.5.4
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.3
@@ -2649,15 +2649,15 @@ snapshots:
   '@esbuild/win32-x64@0.24.2':
     optional: true
 
-  '@iconify-json/carbon@1.2.4':
+  '@iconify-json/carbon@1.2.5':
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/fa@1.2.0':
+  '@iconify-json/fa@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/ion@1.2.1':
+  '@iconify-json/ion@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -2940,13 +2940,13 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.10.2':
+  '@types/node@22.10.5':
     dependencies:
       undici-types: 6.20.0
 
   '@types/tar@6.1.13':
     dependencies:
-      '@types/node': 22.10.2
+      '@types/node': 22.10.5
       minipass: 4.2.8
 
   '@types/unist@2.0.11': {}
@@ -2955,7 +2955,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.10.2
+      '@types/node': 22.10.5
     optional: true
 
   '@ungap/structured-clone@1.2.1': {}
@@ -3063,7 +3063,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.1.2(@types/node@22.10.2)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1):
+  astro@5.1.2(@types/node@22.10.5)(rollup@4.28.1)(typescript@5.7.2)(yaml@2.6.1):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.2
@@ -3115,8 +3115,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.14.4
       vfile: 6.0.3
-      vite: 6.0.7(@types/node@22.10.2)(yaml@2.6.1)
-      vitefu: 1.0.4(vite@6.0.7(@types/node@22.10.2)(yaml@2.6.1))
+      vite: 6.0.7(@types/node@22.10.5)(yaml@2.6.1)
+      vitefu: 1.0.4(vite@6.0.7(@types/node@22.10.5)(yaml@2.6.1))
       which-pm: 3.0.0
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
@@ -4926,19 +4926,19 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.0.7(@types/node@22.10.2)(yaml@2.6.1):
+  vite@6.0.7(@types/node@22.10.5)(yaml@2.6.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
       rollup: 4.28.1
     optionalDependencies:
-      '@types/node': 22.10.2
+      '@types/node': 22.10.5
       fsevents: 2.3.3
       yaml: 2.6.1
 
-  vitefu@1.0.4(vite@6.0.7(@types/node@22.10.2)(yaml@2.6.1)):
+  vitefu@1.0.4(vite@6.0.7(@types/node@22.10.5)(yaml@2.6.1)):
     optionalDependencies:
-      vite: 6.0.7(@types/node@22.10.2)(yaml@2.6.1)
+      vite: 6.0.7(@types/node@22.10.5)(yaml@2.6.1)
 
   volar-service-css@0.0.62(@volar/language-service@2.4.10):
     dependencies:
