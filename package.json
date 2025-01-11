@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && tsc --noEmit && astro build",
+    "test": "playwright test",
     "preview": "astro preview"
   },
   "repository": {
@@ -29,6 +30,7 @@
     "@iconify-json/carbon": "1.2.5",
     "@iconify-json/fa": "1.2.1",
     "@iconify-json/ion": "1.2.2",
+    "@playwright/test": "^1.49.1",
     "@types/mdx": "2.0.13",
     "@types/node": "22.10.5",
     "astro": "5.1.5",

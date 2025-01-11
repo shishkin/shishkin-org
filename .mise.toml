@@ -1,2 +1,8 @@
 [tools]
-node = "22"
+node = "lts"
+
+[hooks]
+postinstall = 'npx corepack enable'
+
+[env]
+_.path = ['./node_modules/.bin']
