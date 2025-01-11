@@ -20,7 +20,7 @@ let pwPort: number | undefined;
 let PW_BASE_URL: string | undefined;
 let PW_TEST_CONNECT_WS_ENDPOINT: string | undefined;
 
-if (command === "test") {
+if (command === "test" && !process.env.CI) {
   const version = packageJson.devDependencies["playwright"];
   console.log(`Starting playwright server container version ${version}...`);
   pwServer = await new GenericContainer(
