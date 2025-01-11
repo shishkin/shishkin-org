@@ -5,7 +5,9 @@ const url = process.env.PW_BASE_URL ?? "http://localhost:4321";
 export default defineConfig({
   timeout: process.env.CI ? 30 * 1000 : 5 * 1000,
   workers: process.env.CI ? 1 : "100%",
-  reporter: process.env.CI ? [["github"], ["html", { open: "never" }]] : "list",
+  reporter: process.env.CI
+    ? [["github"], ["html", { open: "never" }]]
+    : [["list"], ["html", { open: "never" }]],
   use: {
     baseURL: url,
   },
