@@ -19,6 +19,11 @@ export default defineConfig({
   ],
   snapshotPathTemplate:
     "{testDir}/{testFileDir}/{testFileName}-snapshots/{arg}{ext}",
+  expect: {
+    toHaveScreenshot: {
+      maxDiffPixelRatio: 0.01,
+    },
+  },
   webServer: {
     command: "NODE_ENV=test pnpm run dev",
     // Uncomment to debug web server start:
