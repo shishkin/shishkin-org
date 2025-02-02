@@ -5,9 +5,8 @@
   "automergeType": "branch",
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "devDependencies",
+      "groupName": "minor",
       "automerge": true
     },
     {
