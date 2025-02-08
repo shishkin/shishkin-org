@@ -45,8 +45,8 @@ importers:
         specifier: 1.50.1
         version: 1.50.1
       testcontainers:
-        specifier: 10.17.2
-        version: 10.17.2
+        specifier: 10.18.0
+        version: 10.18.0
       tsx:
         specifier: 4.19.2
         version: 4.19.2
@@ -2333,8 +2333,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  testcontainers@10.17.2:
-    resolution: {integrity: sha512-tnvXQsqwnOUjNENWLllfFmDLQUm24Q0MNL6kbVH35bIKPujEhyG6dOcpU8N5vwA4mD/ZdtwfHel++Z1Tw084uQ==}
+  testcontainers@10.18.0:
+    resolution: {integrity: sha512-MnwWsPjsN5QVe+lSU1LwLZVOyjgwSwv1INzkw8FekdwgvOtvJ7FThQEkbmzRcguQootgwmA9FG54NoTChZDRvA==}
 
   text-decoder@1.2.3:
     resolution: {integrity: sha512-3/o9z3X0X0fTupwsYvR03pJ/DjWuqqrfwBgTQzdWDiQSm9KitAyz/9WqsT2JQW7KV2m+bC2ol/zqpW37NHxLaA==}
@@ -5668,7 +5668,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  testcontainers@10.17.2:
+  testcontainers@10.18.0:
     dependencies:
       '@balena/dockerignore': 1.0.2
       '@types/dockerode': 3.3.34
