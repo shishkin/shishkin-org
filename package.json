@@ -29,7 +29,7 @@
   "devDependencies": {
     "@astrojs/check": "0.9.4",
     "@astrojs/mdx": "4.0.8",
-    "@iconify-json/carbon": "1.2.6",
+    "@iconify-json/carbon": "1.2.8",
     "@iconify-json/fa": "1.2.1",
     "@iconify-json/ion": "1.2.2",
     "@playwright/test": "1.50.1",
