@@ -9,6 +9,15 @@
           "value": "application/json"
         }
       ]
+    },
+    {
+      "source": "/.well-known/matrix/client",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
     }
   ]
 }
