@@ -39,7 +39,7 @@
     "astro-icon": "1.1.5",
     "playwright": "1.51.1",
     "playwright-core": "1.51.1",
-    "testcontainers": "10.24.2",
+    "testcontainers": "10.25.0",
     "tsx": "4.19.4",
     "typescript": "5.8.3"
   },
