@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(typescript@5.8.3)
       '@astrojs/mdx':
         specifier: 4.2.6
-        version: 4.2.6(astro@5.7.10(@types/node@22.15.3)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1))
+        version: 4.2.6(astro@5.7.10(@types/node@22.15.17)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1))
       '@iconify-json/carbon':
         specifier: 1.2.8
         version: 1.2.8
@@ -30,11 +30,11 @@ importers:
         specifier: 2.0.13
         version: 2.0.13
       '@types/node':
-        specifier: 22.15.3
-        version: 22.15.3
+        specifier: 22.15.17
+        version: 22.15.17
       astro:
         specifier: 5.7.10
-        version: 5.7.10(@types/node@22.15.3)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1)
+        version: 5.7.10(@types/node@22.15.17)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1)
       astro-icon:
         specifier: 1.1.5
         version: 1.1.5
@@ -677,8 +677,8 @@ packages:
   '@types/node@18.19.70':
     resolution: {integrity: sha512-RE+K0+KZoEpDUbGGctnGdkrLFwi1eYKTlIHNl2Um98mUkGsm1u2Ff6Ltd0e8DktTtC98uy7rSj+hO8t/QuLoVQ==}
 
-  '@types/node@22.15.3':
-    resolution: {integrity: sha512-lX7HFZeHf4QG/J7tBZqrCAXwz9J5RD56Y6MpP0eJkka8p+K0RY/yBTW7CYFJ4VGCclxqOLKmiGP5juQc6MKgcw==}
+  '@types/node@22.15.17':
+    resolution: {integrity: sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==}
 
   '@types/ssh2-streams@0.1.12':
     resolution: {integrity: sha512-Sy8tpEmCce4Tq0oSOYdfqaBpA3hDM8SoxoFh5vzFsu2oL+znzGz8oVWW7xb4K920yYMUY+PIG31qZnFMfPWNCg==}
@@ -2784,12 +2784,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.2.6(astro@5.7.10(@types/node@22.15.3)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1))':
+  '@astrojs/mdx@4.2.6(astro@5.7.10(@types/node@22.15.17)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.7.10(@types/node@22.15.3)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1)
+      astro: 5.7.10(@types/node@22.15.17)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3283,13 +3283,13 @@ snapshots:
 
   '@types/docker-modem@3.0.6':
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
       '@types/ssh2': 1.15.3
 
   '@types/dockerode@3.3.37':
     dependencies:
       '@types/docker-modem': 3.0.6
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
       '@types/ssh2': 1.15.3
 
   '@types/estree-jsx@1.0.5':
@@ -3318,17 +3318,17 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.15.3':
+  '@types/node@22.15.17':
     dependencies:
       undici-types: 6.21.0
 
   '@types/ssh2-streams@0.1.12':
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
 
   '@types/ssh2@0.5.52':
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
       '@types/ssh2-streams': 0.1.12
 
   '@types/ssh2@1.15.3':
@@ -3337,7 +3337,7 @@ snapshots:
 
   '@types/tar@6.1.13':
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
       minipass: 4.2.8
 
   '@types/unist@2.0.11': {}
@@ -3346,7 +3346,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
     optional: true
 
   '@ungap/structured-clone@1.2.1': {}
@@ -3478,7 +3478,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.7.10(@types/node@22.15.3)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1):
+  astro@5.7.10(@types/node@22.15.17)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -3531,8 +3531,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.3.4(@types/node@22.15.3)(tsx@4.19.4)(yaml@2.6.1)
-      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.3)(tsx@4.19.4)(yaml@2.6.1))
+      vite: 6.3.4(@types/node@22.15.17)(tsx@4.19.4)(yaml@2.6.1)
+      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.17)(tsx@4.19.4)(yaml@2.6.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.1
@@ -5102,7 +5102,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
       long: 5.3.1
 
   proxy-from-env@1.1.0: {}
@@ -5725,7 +5725,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.3.4(@types/node@22.15.3)(tsx@4.19.4)(yaml@2.6.1):
+  vite@6.3.4(@types/node@22.15.17)(tsx@4.19.4)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.2)
@@ -5734,14 +5734,14 @@ snapshots:
       rollup: 4.34.9
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.17
       fsevents: 2.3.3
       tsx: 4.19.4
       yaml: 2.6.1
 
-  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.3)(tsx@4.19.4)(yaml@2.6.1)):
+  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.17)(tsx@4.19.4)(yaml@2.6.1)):
     optionalDependencies:
-      vite: 6.3.4(@types/node@22.15.3)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.4(@types/node@22.15.17)(tsx@4.19.4)(yaml@2.6.1)
 
   volar-service-css@0.0.62(@volar/language-service@2.4.10):
     dependencies:
