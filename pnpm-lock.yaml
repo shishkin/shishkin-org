@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(typescript@5.8.3)
       '@astrojs/mdx':
         specifier: 4.3.0
-        version: 4.3.0(astro@5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1))
+        version: 4.3.0(astro@5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1))
       '@iconify-json/carbon':
         specifier: 1.2.9
         version: 1.2.9
@@ -34,7 +34,7 @@ importers:
         version: 22.15.31
       astro:
         specifier: 5.9.3
-        version: 5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1)
+        version: 5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1)
       astro-icon:
         specifier: 1.1.5
         version: 1.1.5
@@ -48,8 +48,8 @@ importers:
         specifier: 11.0.3
         version: 11.0.3
       tsx:
-        specifier: 4.19.4
-        version: 4.19.4
+        specifier: 4.20.3
+        version: 4.20.3
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -2277,8 +2277,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  tsx@4.19.4:
-    resolution: {integrity: sha512-gK5GVzDkJK1SI1zwHf32Mqxf2tSJkNx+eYcNly5+nHvWqXUJYUkWBQtKauoESz3ymezAI++ZwT855x5p5eop+Q==}
+  tsx@4.20.3:
+    resolution: {integrity: sha512-qjbnuR9Tr+FJOMBqJCW5ehvIo/buZq7vH7qD7JziU98h6l3qGy0a/yPFjwO+y0/T7GFpNgNAvEcPPVfyT8rrPQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -2781,12 +2781,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.0(astro@5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1))':
+  '@astrojs/mdx@4.3.0(astro@5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.2
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1)
+      astro: 5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3477,7 +3477,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.19.4)(typescript@5.8.3)(yaml@2.6.1):
+  astro@5.9.3(@types/node@22.15.31)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.6.1
@@ -3532,8 +3532,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.3.4(@types/node@22.15.31)(tsx@4.19.4)(yaml@2.6.1)
-      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.31)(tsx@4.19.4)(yaml@2.6.1))
+      vite: 6.3.4(@types/node@22.15.31)(tsx@4.20.3)(yaml@2.6.1)
+      vitefu: 1.0.6(vite@6.3.4(@types/node@22.15.31)(tsx@4.20.3)(yaml@2.6.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.1
@@ -5596,7 +5596,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsx@4.19.4:
+  tsx@4.20.3:
     dependencies:
       esbuild: 0.25.0
       get-tsconfig: 4.8.1
@@ -5730,7 +5730,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.3.4(@types/node@22.15.31)(tsx@4.19.4)(yaml@2.6.1):
+  vite@6.3.4(@types/node@22.15.31)(tsx@4.20.3)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.2)
@@ -5741,12 +5741,12 @@ snapshots:
     optionalDependencies:
       '@types/node': 22.15.31
       fsevents: 2.3.3
-      tsx: 4.19.4
+      tsx: 4.20.3
       yaml: 2.6.1
 
-  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.31)(tsx@4.19.4)(yaml@2.6.1)):
+  vitefu@1.0.6(vite@6.3.4(@types/node@22.15.31)(tsx@4.20.3)(yaml@2.6.1)):
     optionalDependencies:
-      vite: 6.3.4(@types/node@22.15.31)(tsx@4.19.4)(yaml@2.6.1)
+      vite: 6.3.4(@types/node@22.15.31)(tsx@4.20.3)(yaml@2.6.1)
 
   volar-service-css@0.0.62(@volar/language-service@2.4.10):
     dependencies:
