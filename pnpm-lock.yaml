@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(typescript@5.8.3)
       '@astrojs/mdx':
         specifier: 4.3.0
-        version: 4.3.0(astro@5.9.3(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1))
+        version: 4.3.0(astro@5.11.0(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1))
       '@iconify-json/carbon':
         specifier: 1.2.10
         version: 1.2.10
@@ -33,8 +33,8 @@ importers:
         specifier: 22.16.0
         version: 22.16.0
       astro:
-        specifier: 5.9.3
-        version: 5.9.3(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1)
+        specifier: 5.11.0
+        version: 5.11.0(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1)
       astro-icon:
         specifier: 1.1.5
         version: 1.1.5
@@ -797,8 +797,8 @@ packages:
   astro-icon@1.1.5:
     resolution: {integrity: sha512-CJYS5nWOw9jz4RpGWmzNQY7D0y2ZZacH7atL2K9DeJXJVaz7/5WrxeyIxO8KASk1jCM96Q4LjRx/F3R+InjJrw==}
 
-  astro@5.9.3:
-    resolution: {integrity: sha512-VReZrpUa/3rfeiVvsQ1A2M3ujDPI+pDGIYOMtXPEZwut8tZoEyealXXLjitgCsJ+3dunKGZbg4Eak6i+r0vniw==}
+  astro@5.11.0:
+    resolution: {integrity: sha512-MEICntERthUxJPSSDsDiZuwiCMrsaYy3fnDhp4c6ScUfldCB8RBnB/myYdpTFXpwYBy6SgVsHQ1H4MuuA7ro/Q==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2781,12 +2781,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.0(astro@5.9.3(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1))':
+  '@astrojs/mdx@4.3.0(astro@5.11.0(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.2
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.9.3(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1)
+      astro: 5.11.0(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3477,7 +3477,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.9.3(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1):
+  astro@5.11.0(@types/node@22.16.0)(rollup@4.34.9)(tsx@4.20.3)(typescript@5.8.3)(yaml@2.6.1):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.6.1
