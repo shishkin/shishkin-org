@@ -15,8 +15,8 @@ importers:
         specifier: 4.3.7
         version: 4.3.7(astro@5.14.4(@types/node@22.18.8)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))
       '@iconify-json/carbon':
-        specifier: 1.2.13
-        version: 1.2.13
+        specifier: 1.2.14
+        version: 1.2.14
       '@iconify-json/fa':
         specifier: 1.2.2
         version: 1.2.2
@@ -319,8 +319,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  '@iconify-json/carbon@1.2.13':
-    resolution: {integrity: sha512-vXrFFKkfYaZSwf4WfnRQJQMnpEzxlPlupwZZlS1WvOAuNnWahsUudHycaMpoBzDqBfniH4KQ2b5qnw0VMKoJug==}
+  '@iconify-json/carbon@1.2.14':
+    resolution: {integrity: sha512-33u6uGiYJ79Dfp72peT+PBMcjxzi+NyJLpqYRX8pnw0zchsUW7Us2xecgvkWgD83KYcbe6hufyWlHFU9y7fb/Q==}
 
   '@iconify-json/fa@1.2.2':
     resolution: {integrity: sha512-Rw0L97uO3W0Gy2rq4cM/TH3QjzuPuRca1F2steumZ57zOeheGQdiqo50O6KHjm+WgImmV92IFPUTU6eiaJsrTw==}
@@ -2966,7 +2966,7 @@ snapshots:
       protobufjs: 7.4.0
       yargs: 17.7.2
 
-  '@iconify-json/carbon@1.2.13':
+  '@iconify-json/carbon@1.2.14':
     dependencies:
       '@iconify/types': 2.0.0
 
