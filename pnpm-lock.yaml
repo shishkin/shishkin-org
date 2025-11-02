@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@astrojs/check':
-        specifier: 0.9.4
-        version: 0.9.4(typescript@5.9.3)
+        specifier: 0.9.5
+        version: 0.9.5(typescript@5.9.3)
       '@astrojs/mdx':
-        specifier: 4.3.7
-        version: 4.3.7(astro@5.14.4(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))
+        specifier: 4.3.9
+        version: 4.3.9(astro@5.15.3(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))
       '@iconify-json/carbon':
         specifier: 1.2.14
         version: 1.2.14
@@ -33,8 +33,8 @@ importers:
         specifier: 22.18.10
         version: 22.18.10
       astro:
-        specifier: 5.14.4
-        version: 5.14.4(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
+        specifier: 5.15.3
+        version: 5.15.3(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
       astro-icon:
         specifier: 1.1.5
         version: 1.1.5
@@ -62,8 +62,8 @@ packages:
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
 
-  '@astrojs/check@0.9.4':
-    resolution: {integrity: sha512-IOheHwCtpUfvogHHsvu0AbeRZEnjJg3MopdLddkJE70mULItS/Vh37BHcI00mcOJcH1vhD3odbpvWokpxam7xA==}
+  '@astrojs/check@0.9.5':
+    resolution: {integrity: sha512-88vc8n2eJ1Oua74yXSGo/8ABMeypfQPGEzuoAx2awL9Ju8cE6tZ2Rz9jVx5hIExHK5gKVhpxfZj4WXm7e32g1w==}
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
@@ -89,8 +89,8 @@ packages:
   '@astrojs/markdown-remark@6.3.8':
     resolution: {integrity: sha512-uFNyFWadnULWK2cOw4n0hLKeu+xaVWeuECdP10cQ3K2fkybtTlhb7J7TcScdjmS8Yps7oje9S/ehYMfZrhrgCg==}
 
-  '@astrojs/mdx@4.3.7':
-    resolution: {integrity: sha512-5SRmvMyT/UMWaU2eoD+htnXtE2mUZZEH2K/nEzhuEy+iCsOSuS/DUry59WuKUJRQETi1mgJFdNR4dZLJHYVuRA==}
+  '@astrojs/mdx@4.3.9':
+    resolution: {integrity: sha512-80LHiM4z3FxAjATHNgFpa8nlTNSprAWB4UUKnr/QG56Pwk7uRnJWrXlok4wSCi/3fg8kTZ98A408Q91M+iqJdw==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       astro: ^5.0.0
@@ -467,9 +467,6 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@jridgewell/sourcemap-codec@1.5.0':
-    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
-
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
@@ -830,8 +827,8 @@ packages:
   astro-icon@1.1.5:
     resolution: {integrity: sha512-CJYS5nWOw9jz4RpGWmzNQY7D0y2ZZacH7atL2K9DeJXJVaz7/5WrxeyIxO8KASk1jCM96Q4LjRx/F3R+InjJrw==}
 
-  astro@5.14.4:
-    resolution: {integrity: sha512-yqgMAO2Whi9GmZkByyiPcG7CiiPr0Me0iBSorMa6M0g+wQk/ewnIqUyr7T/uFCPTQndoKwucnYFTrf0yfb0urw==}
+  astro@5.15.3:
+    resolution: {integrity: sha512-wUO/isJrcUoduRoKacKB9jpO6TxTlPV1zw8UqQx39jSNY7z9IxusJAiib3AiNvqK+dCWhqXx+OnExCCwELmcUw==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -969,10 +966,6 @@ packages:
   cheerio@1.0.0:
     resolution: {integrity: sha512-quS9HgjQpdaXOvsZz82Oz7uxtXiy6UIsIQcpBj7HRw2M63Skasm9qlDocAM7jNuaxdhpPU7c4kJN+gA5MCu4ww==}
     engines: {node: '>=18.17'}
-
-  chokidar@4.0.1:
-    resolution: {integrity: sha512-n8enUVCED/KVRQlab1hr3MVpcVMvxtZjmEa956u+4YijlmQED223XMSYj2tLuKvr4jcCTzNNMpQDUer72MMmzA==}
-    engines: {node: '>= 14.16.0'}
 
   chokidar@4.0.3:
     resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
@@ -2010,10 +2003,6 @@ packages:
   readdir-glob@1.1.3:
     resolution: {integrity: sha512-v05I2k7xN8zXvPD9N+z/uhXPaj0sUFCe2rcWZIpBsqxfP7xXFQ0tipAd/wjj1YxWyWtUS5IDJpOG82JKt2EAVA==}
 
-  readdirp@4.0.2:
-    resolution: {integrity: sha512-yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==}
-    engines: {node: '>= 14.16.0'}
-
   readdirp@4.1.2:
     resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
     engines: {node: '>= 14.18.0'}
@@ -2457,8 +2446,8 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
-  vite@6.3.6:
-    resolution: {integrity: sha512-0msEVHJEScQbhkbVTb/4iHZdJ6SXp/AvxL2sjwYQFfBqleHtnCqv1J3sa9zbWz/6kW1m9Tfzn92vW+kZ1WV6QA==}
+  vite@6.4.1:
+    resolution: {integrity: sha512-+Oxm7q9hDoLMyJOYfUYBuHQo+dkAloi33apOPP56pzj+vsdJDzr+j1NISE5pyaAuKL4A3UD34qd0lx5+kfKp2g==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -2726,10 +2715,10 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@astrojs/check@0.9.4(typescript@5.9.3)':
+  '@astrojs/check@0.9.5(typescript@5.9.3)':
     dependencies:
       '@astrojs/language-server': 2.15.4(typescript@5.9.3)
-      chokidar: 4.0.1
+      chokidar: 4.0.3
       kleur: 4.1.5
       typescript: 5.9.3
       yargs: 17.7.2
@@ -2745,7 +2734,7 @@ snapshots:
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/yaml2ts': 0.2.2
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.5
       '@volar/kit': 2.4.10(typescript@5.9.3)
       '@volar/language-core': 2.4.10
       '@volar/language-server': 2.4.10
@@ -2790,16 +2779,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.7(astro@5.14.4(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))':
+  '@astrojs/mdx@4.3.9(astro@5.15.3(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@mdx-js/mdx': 3.1.1
       acorn: 8.15.0
-      astro: 5.14.4(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
+      astro: 5.15.3(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
-      kleur: 4.1.5
+      picocolors: 1.1.1
       rehype-raw: 7.0.0
       remark-gfm: 4.0.1
       remark-smartypants: 3.0.2
@@ -3107,8 +3096,6 @@ snapshots:
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
-
-  '@jridgewell/sourcemap-codec@1.5.0': {}
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
@@ -3504,7 +3491,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.14.4(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1):
+  astro@5.15.3(@types/node@22.18.10)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.4
@@ -3538,7 +3525,6 @@ snapshots:
       http-cache-semantics: 4.2.0
       import-meta-resolve: 4.2.0
       js-yaml: 4.1.0
-      kleur: 4.1.5
       magic-string: 0.30.19
       magicast: 0.3.5
       mrmime: 2.0.1
@@ -3546,6 +3532,7 @@ snapshots:
       p-limit: 6.2.0
       p-queue: 8.1.0
       package-manager-detector: 1.3.0
+      picocolors: 1.1.1
       picomatch: 4.0.3
       prompts: 2.4.2
       rehype: 13.0.2
@@ -3560,8 +3547,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.17.1
       vfile: 6.0.3
-      vite: 6.3.6(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1)
-      vitefu: 1.1.1(vite@6.3.6(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1))
+      vite: 6.4.1(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1)
+      vitefu: 1.1.1(vite@6.4.1(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -3746,10 +3733,6 @@ snapshots:
       parse5-parser-stream: 7.1.2
       undici: 6.21.0
       whatwg-mimetype: 4.0.0
-
-  chokidar@4.0.1:
-    dependencies:
-      readdirp: 4.0.2
 
   chokidar@4.0.3:
     dependencies:
@@ -4065,7 +4048,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.4.1
+      debug: 4.4.3
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -5161,8 +5144,6 @@ snapshots:
     dependencies:
       minimatch: 5.1.6
 
-  readdirp@4.0.2: {}
-
   readdirp@4.1.2: {}
 
   recma-build-jsx@1.0.0:
@@ -5733,7 +5714,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@6.3.6(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1):
+  vite@6.4.1(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
@@ -5747,9 +5728,9 @@ snapshots:
       tsx: 4.20.6
       yaml: 2.6.1
 
-  vitefu@1.1.1(vite@6.3.6(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1)):
+  vitefu@1.1.1(vite@6.4.1(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1)):
     optionalDependencies:
-      vite: 6.3.6(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1)
+      vite: 6.4.1(@types/node@22.18.10)(tsx@4.20.6)(yaml@2.6.1)
 
   volar-service-css@0.0.62(@volar/language-service@2.4.10):
     dependencies:
