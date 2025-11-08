@@ -12,8 +12,8 @@ importers:
         specifier: 0.9.5
         version: 0.9.5(typescript@5.9.3)
       '@astrojs/mdx':
-        specifier: 4.3.9
-        version: 4.3.9(astro@5.15.3(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))
+        specifier: 4.3.10
+        version: 4.3.10(astro@5.15.4(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))
       '@iconify-json/carbon':
         specifier: 1.2.14
         version: 1.2.14
@@ -33,8 +33,8 @@ importers:
         specifier: 22.18.13
         version: 22.18.13
       astro:
-        specifier: 5.15.3
-        version: 5.15.3(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
+        specifier: 5.15.4
+        version: 5.15.4(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
       astro-icon:
         specifier: 1.1.5
         version: 1.1.5
@@ -89,8 +89,8 @@ packages:
   '@astrojs/markdown-remark@6.3.8':
     resolution: {integrity: sha512-uFNyFWadnULWK2cOw4n0hLKeu+xaVWeuECdP10cQ3K2fkybtTlhb7J7TcScdjmS8Yps7oje9S/ehYMfZrhrgCg==}
 
-  '@astrojs/mdx@4.3.9':
-    resolution: {integrity: sha512-80LHiM4z3FxAjATHNgFpa8nlTNSprAWB4UUKnr/QG56Pwk7uRnJWrXlok4wSCi/3fg8kTZ98A408Q91M+iqJdw==}
+  '@astrojs/mdx@4.3.10':
+    resolution: {integrity: sha512-2T5+XIr7PMqMeXhRofXY5NlY4lA0Km+wkfsqmr9lq5KXUHpGlKPQ9dlDZJP9E/CtljJyEBNS17zq66LrIJ1tiQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       astro: ^5.0.0
@@ -827,8 +827,8 @@ packages:
   astro-icon@1.1.5:
     resolution: {integrity: sha512-CJYS5nWOw9jz4RpGWmzNQY7D0y2ZZacH7atL2K9DeJXJVaz7/5WrxeyIxO8KASk1jCM96Q4LjRx/F3R+InjJrw==}
 
-  astro@5.15.3:
-    resolution: {integrity: sha512-wUO/isJrcUoduRoKacKB9jpO6TxTlPV1zw8UqQx39jSNY7z9IxusJAiib3AiNvqK+dCWhqXx+OnExCCwELmcUw==}
+  astro@5.15.4:
+    resolution: {integrity: sha512-0g/68hLHEJZF2nYUcZM5O0kOnzCsCIf8eA9+0jfBAxp4ycujrIHRgIOdZCFKL9GoTsn8AypWbziypH5aEIF+aA==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2770,12 +2770,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.9(astro@5.15.3(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))':
+  '@astrojs/mdx@4.3.10(astro@5.15.4(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.8
       '@mdx-js/mdx': 3.1.1
       acorn: 8.15.0
-      astro: 5.15.3(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
+      astro: 5.15.4(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3482,7 +3482,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@5.15.3(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1):
+  astro@5.15.4(@types/node@22.18.13)(rollup@4.46.3)(tsx@4.20.6)(typescript@5.9.3)(yaml@2.6.1):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.4
