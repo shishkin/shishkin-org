@@ -34,7 +34,7 @@
     "@iconify-json/ion": "1.2.6",
     "@playwright/test": "1.57.0",
     "@types/mdx": "2.0.13",
-    "@types/node": "22.19.1",
+    "@types/node": "22.19.2",
     "astro": "5.16.4",
     "astro-icon": "1.1.5",
     "playwright": "1.57.0",
