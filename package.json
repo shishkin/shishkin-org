@@ -35,7 +35,7 @@
     "@playwright/test": "1.58.2",
     "@types/mdx": "2.0.13",
     "@types/node": "22.19.11",
-    "astro": "5.17.1",
+    "astro": "5.17.2",
     "astro-icon": "1.1.5",
     "playwright": "1.58.2",
     "playwright-core": "1.58.2",
