@@ -1,7 +1,7 @@
 import { GenericContainer, type StartedTestContainer } from "testcontainers";
 import { spawn } from "node:child_process";
 import { networkInterfaces } from "node:os";
-import packageJson from "../package.json" assert { type: "json" };
+import packageJson from "../package.json" with { type: "json" };
 
 const [, , command, ...args] = process.argv;
 
@@ -23,20 +23,11 @@ let PW_TEST_CONNECT_WS_ENDPOINT: string | undefined;
 if (command === "test" && !process.env.CI) {
   const version = packageJson.devDependencies["playwright"];
   console.log(`Starting playwright server container version ${version}...`);
-  pwServer = await new GenericContainer(
-    `mcr.microsoft.com/playwright:v${version}-noble`
-  )
+  pwServer = await new GenericContainer(`mcr.microsoft.com/playwright:v${version}-noble`)
     .withIpcMode("host")
     .withPlatform("linux/arm64")
     .withExposedPorts(3333)
-    .withCommand([
-      "npx",
-      "-y",
-      `playwright@${version}`,
-      "run-server",
-      "--port",
-      "3333",
-    ])
+    .withCommand(["npx", "-y", `playwright@${version}`, "run-server", "--port", "3333"])
     .start();
   pwPort = pwServer.getFirstMappedPort();
   console.log(`Playwright server listens on port ${pwPort}`);
@@ -47,23 +38,19 @@ if (command === "test" && !process.env.CI) {
   console.log(`PW_TEST_CONNECT_WS_ENDPOINT=${PW_TEST_CONNECT_WS_ENDPOINT}`);
 }
 
-const pw = spawn(
-  "pnpm",
-  ["exec", "playwright", ...(command ? [command] : []), ...args],
-  {
-    cwd: process.cwd(),
-    env: {
-      ...process.env,
-      ...(PW_TEST_CONNECT_WS_ENDPOINT
-        ? {
-            PW_BASE_URL,
-            PW_TEST_CONNECT_WS_ENDPOINT,
-          }
-        : {}),
-    },
-    stdio: "inherit",
-  }
-);
+const pw = spawn("pnpm", ["exec", "playwright", ...(command ? [command] : []), ...args], {
+  cwd: process.cwd(),
+  env: {
+    ...process.env,
+    ...(PW_TEST_CONNECT_WS_ENDPOINT
+      ? {
+          PW_BASE_URL,
+          PW_TEST_CONNECT_WS_ENDPOINT,
+        }
+      : {}),
+  },
+  stdio: "inherit",
+});
 
 pw.on("exit", async (code) => {
   if (pwServer) {
