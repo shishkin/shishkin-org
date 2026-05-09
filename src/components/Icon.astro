@@ -1,0 +1,36 @@
+---
+import { icons as fa, type IconifyJSON } from "@iconify-json/fa";
+import { icons as carbon } from "@iconify-json/carbon";
+import { icons as ion } from "@iconify-json/ion";
+
+export interface Props {
+  name: string;
+  "aria-label"?: string;
+}
+
+const collections: Record<string, IconifyJSON> = {
+  fa,
+  carbon,
+  ion,
+};
+
+const { name, ...props } = Astro.props;
+
+const [colName = "fa", iconName = "home"] = name.split(":");
+const collection = collections[colName];
+const icon = collection?.icons[iconName];
+if (!icon) {
+  throw new Error(`Icon ${name} not found`);
+}
+const width = icon.width ?? collection.width ?? 512;
+const height = icon.height ?? collection.height ?? 512;
+---
+
+<svg set:html={icon.body} viewBox={`0 0 ${width} ${height}`} {...props} />
+<style>
+  svg {
+    width: 1em;
+    height: 1em;
+    margin-bottom: -0.125em;
+  }
+</style>

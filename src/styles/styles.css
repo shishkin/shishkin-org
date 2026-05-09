@@ -92,11 +92,6 @@ footer a:active {
   color: var(--color-red);
 }
 
-svg.icon {
-  height: 1em;
-  vertical-align: -0.125em;
-}
-
 .preamble {
   max-width: 72ch;
   margin: 4em auto;
