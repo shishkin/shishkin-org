@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "astro dev --host",
     "start": "astro dev",
-    "build": "astro check && tsc --noEmit && astro build",
-    "playwright": "node --import=tsx scripts/playwright.ts",
-    "test": "pnpm run playwright test",
+    "build": "tsc --noEmit && astro check && astro build",
     "preview": "astro preview"
   },
   "repository": {
@@ -32,15 +30,10 @@
     "@iconify-json/carbon": "1.2.20",
     "@iconify-json/fa": "1.2.2",
     "@iconify-json/ion": "1.2.7",
-    "@playwright/test": "1.59.1",
     "@types/mdx": "2.0.13",
     "@types/node": "22.19.17",
     "astro": "6.2.2",
     "astro-icon": "1.1.5",
-    "playwright": "1.59.1",
-    "playwright-core": "1.59.1",
-    "testcontainers": "11.14.0",
-    "tsx": "4.21.0",
     "typescript": "6.0.3"
   },
   "packageManager": "pnpm@11.0.6+sha512.97f906e1da2bedac3df83cadae04b4753a130092dd49d55cd36825ad3e623e9df3f97754f8f259e699172a360fac569acf2f908e7732bdae3eddb2dcf7e121fd"
