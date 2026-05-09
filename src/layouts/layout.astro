@@ -1,6 +1,7 @@
 ---
 import "../styles/styles.css";
-import { Icon } from "astro-icon/components";
+import Icon from "../components/Icon.astro";
+
 const { title = "Sergey Shishkin", description = "" } = Astro.props.frontmatter || Astro.props;
 ---
 
@@ -25,7 +26,7 @@ const { title = "Sergey Shishkin", description = "" } = Astro.props.frontmatter 
       <header>
         <nav>
           <a href="/">
-            <Icon name="fa:home" class="icon" aria-label="Home" />
+            <Icon name="fa:home" aria-label="Home" />
           </a>
 
           <a href="/#areas-of-expertise">Areas of Expertise</a>
@@ -37,19 +38,19 @@ const { title = "Sergey Shishkin", description = "" } = Astro.props.frontmatter 
           <div class="spacer"></div>
 
           <a href="http://feeds.feedburner.com/SergeyShishkin" rel="alternate" title="RSS Feed">
-            <Icon name="ion:logo-rss" class="icon" />
+            <Icon name="ion:logo-rss" />
           </a>
 
           <a href="https://xing.com/profile/Sergey_Shishkin2" rel="me" title="My profile on Xing">
-            <Icon name="fa:xing" class="icon" />
+            <Icon name="fa:xing" />
           </a>
 
           <a href="https://www.linkedin.com/in/serega" rel="me" title="My profile on LinkedIn">
-            <Icon name="fa:linkedin" class="icon" />
+            <Icon name="fa:linkedin" />
           </a>
 
           <a href="https://github.com/shishkin" rel="me" title="My profile on GitHub">
-            <Icon name="fa:github" class="icon" />
+            <Icon name="fa:github" />
           </a>
         </nav>
       </header>
@@ -63,7 +64,7 @@ const { title = "Sergey Shishkin", description = "" } = Astro.props.frontmatter 
             rel="license"
             title="Creative Commons Attribution License"
           >
-            <Icon name="fa:creative-commons" class="icon" />
+            <Icon name="fa:creative-commons" />
           </a> Sergey Shishkin.
           <a href="/imprint">Imprint</a>
         </p>
