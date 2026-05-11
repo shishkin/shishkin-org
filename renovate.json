@@ -1,8 +1,14 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "timezone": "Europe/Zurich",
   "extends": ["config:best-practices", "helpers:disableTypesNodeMajor"],
   "schedule": ["every weekend on the 2nd week of the month"],
   "automergeType": "branch",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "automergeType": "branch"
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
