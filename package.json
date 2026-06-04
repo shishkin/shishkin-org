@@ -4,10 +4,12 @@
   "description": "Personal site",
   "type": "module",
   "scripts": {
-    "dev": "astro dev --host",
-    "start": "astro dev",
-    "build": "tsc --noEmit && astro check && astro build",
-    "preview": "astro preview"
+    "start": "node --watch server.ts",
+    "generate": "node node_modules/@mastrojs/mastro/src/generator.js --output dist",
+    "build": "tsc --noEmit && pnpm run generate"
+  },
+  "imports": {
+    "#*": "./*"
   },
   "repository": {
     "type": "git",
@@ -24,15 +26,16 @@
     "url": "https://github.com/shishkin/shishkin-org/issues"
   },
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
-  "devDependencies": {
-    "@astrojs/check": "0.9.9",
-    "@astrojs/mdx": "5.0.4",
-    "@iconify-json/carbon": "1.2.20",
+  "dependencies": {
+    "@iconify-json/carbon": "1.2.22",
     "@iconify-json/fa": "1.2.2",
     "@iconify-json/ion": "1.2.7",
-    "@types/mdx": "2.0.13",
+    "@mastrojs/mastro": "jsr:0.8.6",
+    "@remix-run/node-fetch-server": "0.11.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "24.0.4",
     "@types/node": "^24",
-    "astro": "6.2.2",
     "typescript": "6.0.3"
   },
   "packageManager": "pnpm@11.0.9+sha512.34ce82e6780233cf9cad8685029a8f81d2e06196c5a9bad98879f7424940c6817c4e4524fb7d38b8553ceed48b9758b8ebaf1abd3600c232c4c8cf7366086f38"
