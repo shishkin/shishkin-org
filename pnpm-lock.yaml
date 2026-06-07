@@ -28,7 +28,7 @@ importers:
         specifier: 24.0.4
         version: 24.0.4
       '@types/node':
-        specifier: ^24
+        specifier: 24.12.4
         version: 24.12.4
       typescript:
         specifier: 6.0.3
