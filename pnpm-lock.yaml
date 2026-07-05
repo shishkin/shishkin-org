@@ -21,8 +21,8 @@ importers:
         specifier: jsr:0.8.6
         version: '@jsr/mastrojs__mastro@0.8.6'
       '@remix-run/node-fetch-server':
-        specifier: 0.13.3
-        version: 0.13.3
+        specifier: 0.14.0
+        version: 0.14.0
     devDependencies:
       '@tsconfig/node24':
         specifier: 24.0.4
@@ -54,8 +54,8 @@ packages:
   '@jsr/std__media-types@1.1.0':
     resolution: {integrity: sha512-dHvaxHL7ENWnltgL653uo3KnKFse3ZbopZop2gqsT7yrscx7irZEClu5Cba7gMPPRk4Lg1FbriNcaBViM2RSBw==, tarball: https://npm.jsr.io/~/11/@jsr/std__media-types/1.1.0.tgz}
 
-  '@remix-run/node-fetch-server@0.13.3':
-    resolution: {integrity: sha512-UfjOXed/DQteaM5VyTfqTeGpHwyL2J5aoRGY6cydip4tt1ehNNeSwuXCC7AEGE0RWBs/7bgKxYkL/B/+UDe4AA==}
+  '@remix-run/node-fetch-server@0.14.0':
+    resolution: {integrity: sha512-s46HS2YuZwCJxwXIrcWdKTfIXWf2G2S20bXeYR2BqBoUkmc4RSiC+VRely6pqNvSUIio8piaI+uLN40IvoFN/A==}
 
   '@tsconfig/node24@24.0.4':
     resolution: {integrity: sha512-2A933l5P5oCbv6qSxHs7ckKwobs8BDAe9SJ/Xr2Hy+nDlwmLE1GhFh/g/vXGRZWgxBg9nX/5piDtHR9Dkw/XuA==}
@@ -93,7 +93,7 @@ snapshots:
 
   '@jsr/std__media-types@1.1.0': {}
 
-  '@remix-run/node-fetch-server@0.13.3': {}
+  '@remix-run/node-fetch-server@0.14.0': {}
 
   '@tsconfig/node24@24.0.4': {}
 
