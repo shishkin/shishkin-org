@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/shishkin/shishkin-org#readme",
   "dependencies": {
-    "@iconify-json/carbon": "1.2.23",
+    "@iconify-json/carbon": "1.2.24",
     "@iconify-json/fa": "1.2.2",
     "@iconify-json/ion": "1.2.7",
     "@mastrojs/mastro": "jsr:0.8.6",
