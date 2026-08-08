@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@iconify-json/carbon':
-        specifier: 1.2.24
-        version: 1.2.24
+        specifier: 1.2.25
+        version: 1.2.25
       '@iconify-json/fa':
         specifier: 1.2.2
         version: 1.2.2
@@ -36,8 +36,8 @@ importers:
 
 packages:
 
-  '@iconify-json/carbon@1.2.24':
-    resolution: {integrity: sha512-b7u/eTWE3xFa7UXlRJBSEm6At1y6+F0P3imBEip5/8QeRzouxVjBf80Y2xnu1GYsFo9MYlHA0bZfxxMd5givfw==}
+  '@iconify-json/carbon@1.2.25':
+    resolution: {integrity: sha512-7GLgXnmi47Skh8DcPPiP8U3vgm3rOVziEe+flCdG/kwiVaeb649U3Eqt/ej4f3NvlZK8BrOxpR3xQlWFLZYblQ==}
 
   '@iconify-json/fa@1.2.2':
     resolution: {integrity: sha512-Rw0L97uO3W0Gy2rq4cM/TH3QjzuPuRca1F2steumZ57zOeheGQdiqo50O6KHjm+WgImmV92IFPUTU6eiaJsrTw==}
@@ -73,7 +73,7 @@ packages:
 
 snapshots:
 
-  '@iconify-json/carbon@1.2.24':
+  '@iconify-json/carbon@1.2.25':
     dependencies:
       '@iconify/types': 2.0.0
 
