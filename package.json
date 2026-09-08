@@ -17,7 +17,7 @@
   },
   "engines": {
     "node": ">=24",
-    "pnpm": ">=11"
+    "pnpm": ">=12"
   },
   "keywords": [],
   "author": "Sergey Shishkin",
