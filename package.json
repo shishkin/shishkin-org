@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@tsconfig/node24": "24.0.5",
-    "@types/node": "24.13.3",
+    "@types/node": "24.13.4",
     "typescript": "7.0.2"
   },
   "packageManager": "pnpm@11.26.0+sha512.fc0e2bf890b9f983611f1ab68c0637bce914390653699f83c1a78b005ed25f2c81e77920c8fd8eee2ecf0b58b28cdcb00a84d97f69bcf7c56b2f344710238664"
