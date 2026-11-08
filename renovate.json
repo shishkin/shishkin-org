@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "timezone": "Europe/Zurich",
-  "extends": ["config:best-practices", "helpers:disableTypesNodeMajor"],
+  "extends": ["config:best-practices"],
   "schedule": ["every weekend on the 2nd week of the month"],
   "automergeType": "branch",
   "lockFileMaintenance": {
@@ -17,6 +17,19 @@
     {
       "matchCategories": ["ci"],
       "automerge": true
+    },
+    {
+      "matchPackageNames": ["@types/node"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "matchManagers": ["mise"],
+      "matchDepNames": ["node"],
+      "versioning": "npm"
+    },
+    {
+      "matchPackageNames": ["node", "@types/node"],
+      "groupName": "node"
     }
   ]
 }
