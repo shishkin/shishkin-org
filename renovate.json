@@ -19,7 +19,7 @@
       "automerge": true
     },
     {
-      "matchPackageNames": ["@types/node"],
+      "matchPackageNames": ["@types/node", "@tsconfig/node**"],
       "rangeStrategy": "replace"
     },
     {
